@@ -1,48 +1,24 @@
-# 🎬 Movie Recommendation System  
-### Personalized Content Discovery using Machine Learning  
+# 🏥 Hospital Performance and Analysis Dashboard  
+### A Data-Driven Overview for Smarter Healthcare Decisions  
 
-This project implements an **intelligent Movie Recommendation System** that helps users discover movies tailored to their preferences using **machine learning**.  
-It combines **Content-Based Filtering** and **Collaborative Filtering** techniques, deployed as an **interactive Streamlit web app**.
-
----
-
-## 🚀 Features  
-✅ Personalized movie recommendations  
-✅ Integration with TMDb API for posters and details  
-✅ Interactive and responsive Streamlit interface  
-✅ Hybrid recommendation logic (content + collaborative)  
-✅ End-to-end ML pipeline (data → model → deployment)
+This project presents an **interactive data analysis dashboard** that visualizes key operational and performance metrics of a hospital.  
+It leverages data analytics to enhance **decision-making**, **resource allocation**, and **patient care outcomes**
 
 ---
 
-## 🧠 System Overview  
-1. **Data Preprocessing** – Clean and prepare movie metadata.  
-2. **Feature Extraction** – Use TF-IDF vectorization to convert text to numerical features.  
-3. **Similarity Computation** – Use cosine similarity between movie vectors.  
-4. **Recommendation Engine** – Retrieve and rank most similar movies.  
-5. **Streamlit Deployment** – Simple, interactive web interface.
+## 🎯 Objectives  
+- **Analyze Key Metrics:** Evaluate patient demographics, doctor performance, and hospital operations.  
+- **Identify Trends:** Detect patterns in medical test results, costs, and doctor compensation.  
+- **Highlight Improvements:** Reveal opportunities to enhance operational efficiency and patient satisfaction.
 
 ---
 
-## 🗂️ Dataset & APIs  
-- **Dataset:** [Kaggle - TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)  
-- **APIs:**  
-  - [OMDb API](https://www.omdbapi.com/) – For movie metadata.  
-  - [TMDb API](https://www.themoviedb.org/documentation/api) – For posters & trailers.
+## 🧠 Dashboard Overview  
+The **Hospital Performance and Analysis Dashboard** provides:  
+- 📊 **Real-time insights** into hospital operations.  
+- 👩‍⚕️ **Doctor performance metrics** including compensation and patient satisfaction.  
+- 🧍 **Patient journey analysis** with billing and cost breakdowns.  
+- 💊 **Medication trends** and pharmaceutical usage.  
+- 📈 **Strategic recommendations** for resource optimization and growth.
 
 ---
-
-## 💻 Tech Stack  
-
-| Component | Technology |
-|------------|-------------|
-| Language | Python |
-| ML Libraries | pandas, numpy, scikit-learn |
-| Web Framework | Streamlit |
-| API | TMDb |
-| Deployment | Streamlit Cloud / Localhost |
-
----
-
-## 🧩 Project Structure  
-
